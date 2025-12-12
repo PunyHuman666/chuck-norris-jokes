@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #222;
+}
+
+html {
+  background: #222;
+}
+
+body {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  background: linear-gradient(75deg, #afc747, #e1ffd4);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 2px -2px 20px #eee;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#chuck {
+  width: 250px;
+  height: auto;
+  margin: 2em 0;
+}
+
+main {
+  margin: 2em;
+  text-align: center;
+}
+
+.category-box {
+  font-size: 18px;
+  margin-bottom: 1.5em;
+}
+
+hr {
+  border: 1px solid #222;
+  margin-bottom: 1em;
+}
+
+.joke {
+  font-size: 16px;
+}

@@ -3,7 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Chuck Norris Jokes</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="./img/chuck.png" alt="chuck norris" id="chuck" />
+      <h1>Chuck Norris Jokes 😂</h1>
+    </header>
+    <main>
+      <div class="category-box">
+        <label for="categories-input">Choose category: </label>
+        <input
+          list="categories"
+          id="categories-input"
+          name="categories-input"
+        />
+        <datalist id="categories">
+          <option value="food"></option>
+          <option value="money"></option>
+          <option value="sport"></option>
+        </datalist>
+      </div>
+      <hr />
+      <p class="joke">
+        The limit of Chuck Norris as he approaches infinity does not exist
+        because Chuck Norris has no limits.
+      </p>
+    </main>
+  </body>
 </html>
