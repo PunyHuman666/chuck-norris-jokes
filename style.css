@@ -41,6 +41,21 @@ main {
   margin-bottom: 1.5em;
 }
 
+#random-joke {
+  display: block;
+  margin: 1.5em auto 0 auto;
+  padding: 4px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px -1px 5px #222;
+}
+
+.error {
+  color: red;
+  padding-top: 1em;
+  display: none;
+}
+
 hr {
   border: 1px solid #222;
   margin-bottom: 1em;
