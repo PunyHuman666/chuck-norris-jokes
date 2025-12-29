@@ -41,8 +41,9 @@ main {
   margin-bottom: 1.5em;
 }
 
-#random-joke {
-  display: block;
+#random-joke,
+#generate-joke {
+  display: inline-block;
   margin: 1.5em auto 0 auto;
   padding: 4px;
   border: none;
@@ -54,6 +55,7 @@ main {
   color: red;
   padding-top: 1em;
   display: none;
+  font-size: 20px;
 }
 
 hr {
@@ -62,5 +64,5 @@ hr {
 }
 
 .joke {
-  font-size: 16px;
+  font-size: 20px;
 }
